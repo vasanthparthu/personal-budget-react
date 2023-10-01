@@ -26,7 +26,7 @@ const PieGraph = props => {
     .innerRadius(props.innerRadius)
     .outerRadius(props.outerRadius);
 
-  const colors = d3.scaleOrdinal(d3.schemeDark2);
+  const colors = d3.scaleOrdinal(d3.schemeAccent);
   const format = d3.format(".2f");
   const data = createPie(props.data);
 

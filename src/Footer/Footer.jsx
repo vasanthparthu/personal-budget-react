@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <div className = "bottom">
         <div className = "center">
-          All rights reserved &copy; Sneha Gourishetty
+          All rights reserved &copy; Vasanth Parthu Aduvala
         </div>
       </div>
     </footer>
